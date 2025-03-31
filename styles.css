@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+}
+
+.moviePic {
+    height: 400px;
+    width: 300px;
+    opacity: 0.9;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.moviePic:hover {
+    opacity: 1;
+}
+
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
